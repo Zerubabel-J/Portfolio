@@ -141,19 +141,6 @@ body {
     top: 20%;
     left: 10px;
   }
-
-  .snapshoot {
-    flex: 48%;
-    max-width: 48%;
-    padding: 10px 5px;
-    margin: 5px;
-    border-radius: 8px;
-  }
-
-  .tonic-part {
-    flex: 48%;
-    max-width: 48%;
-  }
 }
 
 /* for screen which is smaller than 768 */
@@ -180,72 +167,5 @@ body {
 
   .content {
     background-image: url('./images/header-bg-mobile.svg');
-  }
-
-  .contact-me {
-    background-image: url('images/contact-mobile.png'), url('images/Contact me.png');
-  }
-
-  .snapshoot-card {
-    min-height: 844px;
-  }
-
-  .snapshoot {
-    background: url('./images/Snapshoot Portfolio.svg');
-    flex: 98%;
-    max-width: 98%;
-  }
-
-  #snapshoot-profile {
-    background-image: url('images/snapshoot-ortfolio-mob.svg');
-  }
-
-  .tonic-part {
-    flex: 98%;
-    max-width: 98%;
-  }
-
-  .worke-expr {
-    grid-template-columns: 28% 40% 20%;
-  }
-
-  .about-me {
-    border-radius: 1px 88px 1px 1px;
-    transition: 0.3s;
-    margin-top: 88px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    background-color: #fff;
-  }
-
-  .acc-icon {
-    right: 26px;
-    position: absolute;
-    margin-top: 15px;
-  }
-
-  .acc-sub-items {
-    list-style-type: none;
-    padding: 11px;
-    margin: 5px;
-    border-radius: 8px;
-  }
-
-  .lang {
-    display: inline;
-  }
-
-  .lan-icon {
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
-  }
-}
-
-/* for screen which is smallar than 375px */
-@media screen and (max-width: 375px) {
-  .contact-info {
-    width: 96%;
   }
 }
