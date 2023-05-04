@@ -1,3 +1,251 @@
+
 body {
+  background-color: #f7f7f9;
+  font-family: 'Poppins', sans-serif;
+  margin: 1px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f7f7f9;
+  padding: 1% 8%;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding: 6px;
+  max-width: 75%;
+  flex: 75%;
+}
+
+.menu {
+  display: flex;
+  width: 77%;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.menu-item {
+  flex-direction: column;
+  list-style-type: none;
+  transition: transform 1s;
+}
+
+.menu-item a {
+  text-decoration: none;
+  margin-right: 22px;
+  color: #344563;
+}
+
+.menu-item:hover {
+  transform: scale(1.2);
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.logo {
+  max-width: 20%;
+  flex: 20%;
+  margin-top: 10px;
+}
+
+.logo-link {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.for-bg-img {
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content {
+  display: flex;
+  border-bottom-left-radius: 100px;
+  background: url('./images/Header-bg.svg') !important;
   background-color: #fff;
+}
+
+.public-info {
+  height: 600px;
+  padding: 6px;
+}
+
+.lets-connect {
+  color: #7f8cff;
+  margin-bottom: 1px;
+}
+
+.social-part {
+  display: flex;
+  padding: 4px;
+  margin-top: 1px;
+}
+
+.social-item {
+  list-style-type: none;
+  margin: 1px 22px 1px 1px;
+}
+
+.transforScale {
+  transition: transform 1s;
+}
+
+.transforScale:hover {
+  transform: scale(1.8);
+}
+
+.btnHover:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.btnPressed:active {
+  background-color: #5300d5;
+  color: #fff;
+}
+
+.btnDisabled:disabled {
+  background-color: #fff;
+  box-shadow: inset 10px 10px 5px #c1c1c1;
+  outline: none;
+}
+
+/* for screen which is larger than 768px */
+@media screen and (min-width: 768px) {
+  .logo {
+    max-width: 20%;
+    flex: 20%;
+  }
+
+  .navbar {
+    max-width: 76%;
+    flex: 76%;
+  }
+
+  .public-info {
+    padding: 1% 16% !important;
+    margin: 0 auto;
+    font-size: 1.4em;
+  }
+
+  .big-text {
+    top: 20%;
+    left: 10px;
+  }
+
+  .snapshoot {
+    flex: 48%;
+    max-width: 48%;
+    padding: 10px 5px;
+    margin: 5px;
+    border-radius: 8px;
+  }
+
+  .tonic-part {
+    flex: 48%;
+    max-width: 48%;
+  }
+}
+
+/* for screen which is smaller than 768 */
+@media screen and (max-width: 768px) {
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .header {
+    background-color: #fff;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .big-text {
+    margin-top: 66px;
+  }
+
+  .contact-info {
+    width: 60%;
+  }
+
+  .content {
+    background-image: url('./images/header-bg-mobile.svg');
+  }
+
+  .contact-me {
+    background-image: url('images/contact-mobile.png'), url('images/Contact me.png');
+  }
+
+  .snapshoot-card {
+    min-height: 844px;
+  }
+
+  .snapshoot {
+    background: url('./images/Snapshoot Portfolio.svg');
+    flex: 98%;
+    max-width: 98%;
+  }
+
+  #snapshoot-profile {
+    background-image: url('images/snapshoot-ortfolio-mob.svg');
+  }
+
+  .tonic-part {
+    flex: 98%;
+    max-width: 98%;
+  }
+
+  .worke-expr {
+    grid-template-columns: 28% 40% 20%;
+  }
+
+  .about-me {
+    border-radius: 1px 88px 1px 1px;
+    transition: 0.3s;
+    margin-top: 88px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  }
+
+  .acc-icon {
+    right: 26px;
+    position: absolute;
+    margin-top: 15px;
+  }
+
+  .acc-sub-items {
+    list-style-type: none;
+    padding: 11px;
+    margin: 5px;
+    border-radius: 8px;
+  }
+
+  .lang {
+    display: inline;
+  }
+
+  .lan-icon {
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+  }
+}
+
+/* for screen which is smallar than 375px */
+@media screen and (max-width: 375px) {
+  .contact-info {
+    width: 96%;
+  }
 }
