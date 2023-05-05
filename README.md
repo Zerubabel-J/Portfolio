@@ -36,9 +36,9 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="#">HTML</a></li>
-    <li><a href="#">CSS</a></li>
-    <li><a href="#">Git Hub & Git</a></li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Git Hub & Git</li>
   </ul>
 </details>
 
