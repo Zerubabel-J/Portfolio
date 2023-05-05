@@ -36,9 +36,7 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="#">HTML</a>https://www.w3schools.com/html/default.asp</li>
-    <li><a href="#">CSS</a>https://www.w3schools.com/css/default.asp</li>
-    <li><a href="#">Git Hub & Git</a>https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account</li>
+   
   </ul>
 </details>
 
